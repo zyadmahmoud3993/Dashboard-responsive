@@ -1,0 +1,153 @@
+*{
+    transition: all .4s !important;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.dropdown-menu{
+        transform: translate(0) !important
+}
+.dropdown-menu a:hover , a:hover{
+        background-color: rgba(87, 90, 93, 0.206) !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.elements-nav a{
+    padding: 10px;
+
+    padding-left: 30px;
+}
+
+
+.elements-nav .dropdown a{
+    padding-left: 20px;
+}
+.text-light{
+    color: rgb(160 183 207) !important;
+}
+.active{
+    color: rgb(140, 140, 222) !important;
+}
+
+.drop-cust{
+    left: -70px !important;
+    background-color:rgb(91 119 168 / 24%) !important ;
+    border: none !important;
+}
+input::placeholder{
+    color: rgb(160 183 207) !important;
+}
+
+.message:hover , .chat:hover{
+    color: rgb(140, 140, 222) !important;
+    background: none !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color: rgba(87, 90, 93, 0.206) !important;
+    color: rgb(140, 140, 222) !important;
+}
+
+
+.bg-info{
+    background-color: rgb(10 165 196) !important;
+}
+.bg-warning{
+    background-color: rgb(221 167 8) !important;
+}
+.show-sidebar{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-md-cus-6 {
+        flex: 0 0 auto;
+        width: 47%;
+    }
+    
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .col-lg-cus-3{
+        flex: 0 0 auto;
+        width: 23.1%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .chart-width{
+        width: 50% !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 908px) {
+    .show-sidebar{
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        z-index: 1000;
+    }
+    .show-sidebar.show{
+        margin-left: 250px;
+    }
+    .Sidebar{
+        z-index: 1000;
+        position: fixed !important;
+        left: -100% !important; 
+        
+    }
+
+    .Sidebar.show{
+        left: 0 !important;
+    }
+
+
+    
+}
+  
+  :root {
+    --progress-bar-width: 100px;
+    --progress-bar-height: 100px;
+    --font-size: 2rem;
+  }
+  
+  .circular-progress {
+    position: relative;
+    width: var(--progress-bar-width);
+    height: var(--progress-bar-height);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-circle {
+    position: absolute;
+    width: calc(var(--progress-bar-width) - 10px);
+    height: calc(var(--progress-bar-height) - 10px);
+    border-radius: 50%;
+    background-color: lightgrey;
+  }
+  
+  .percentage {
+    position: relative;
+    font-size: var(--font-size);
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+.Sidebar{
+    position: relative;
+    overflow-y: scroll;
+}
